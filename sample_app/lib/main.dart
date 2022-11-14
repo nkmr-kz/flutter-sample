@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sample_app/sliver_app_bar_page.dart';
 
 import 'grid_view_page.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: GridViewPage(),
+      home: SliverAppBarPage(),
     );
   }
 }
